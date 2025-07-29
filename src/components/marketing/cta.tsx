@@ -28,10 +28,10 @@ const CTA = () => {
 
           <motion.div
             className="absolute -bottom-1/8 left-1/3 -translate-x-1/2 w-44 h-32 lg:h-52 lg:w-1/3 rounded-full blur-[5rem] lg:blur-[10rem] -z-10"
-            // style={{
-            //   background:
-            //     "conic-gradient(from 0deg at 50% 50%, #a855f7 0deg, #3b82f6 180deg, #06b6d4 360deg)",
-            // }}
+            style={{
+              background:
+                "conic-gradient(from 0deg at 50% 50%, #a855f7 0deg, #3b82f6 180deg, #06b6d4 360deg)",
+            }}
             animate={{
               rotate: 360,
             }}
@@ -42,18 +42,18 @@ const CTA = () => {
             }}
           />
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-heading font-medium !leading-snug">
-            Ready to boost your <br />{" "}
-            <span className="font-subheading italic">marketing</span> ?
+            Ready to 10x Your <br />{" "}
+            <span className="font-subheading italic">Marketing ROI</span> ?
           </h2>
           <p className="text-sm md:text-lg text-center text-accent-foreground/80 max-w-2xl mx-auto mt-4">
-            Transform your marketing with AI-powered automation. Create
-            campaigns faster, generate better content{" "}
+            Join 1,000+ brands using AI to automate campaigns, boost
+            conversions, and scale faster than ever.{" "}
             <span className="hidden lg:inline">
-              and make smarter decisions in minutes.
+              Start your free trial today—no credit card required.
             </span>
           </p>
           <Link href="#pricing" className="mt-8">
-            <Button size="lg">Let&apos;s get started</Button>
+            <Button size="lg">Start Your Free Trial</Button>
           </Link>
         </div>
       </Container>

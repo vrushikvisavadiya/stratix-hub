@@ -8,34 +8,37 @@ import {
 
 export const FEATURES = [
   {
-    title: "Enhance User Experience",
+    title: "AI-Powered Personalization",
     description:
-      "Efficiently manage user data and interactions with advanced AI tools",
+      "Deliver tailored content and experiences for every user, increasing engagement and satisfaction with intelligent automation.",
     icon: WandSparklesIcon,
     image: "/images/feature-two.svg",
   },
   {
-    title: "Comprehensive Insights",
+    title: "Comprehensive Marketing Insights",
     description:
-      "Gain deep insights into your audience and campaign performance",
+      "Understand your audience deeply and optimize campaigns with actionable, data-driven insights.",
     icon: ChartColumnBigIcon,
     image: "/images/feature-one.svg",
   },
   {
-    title: "Data Management",
-    description: "Manage your data with ease and efficiency",
+    title: "Seamless Data Management",
+    description:
+      "Securely store, manage, and analyze all your marketing data in one unified platform.",
     icon: DatabaseIcon,
     image: "/images/feature-three.svg",
   },
   {
-    title: "Real-Time Analytics",
-    description: "Track and analyze your marketing performance in real-time",
+    title: "Real-Time Performance Analytics",
+    description:
+      "Monitor results instantly and optimize on the fly to maximize marketing ROI.",
     icon: TrendingUpIcon,
     image: "/images/feature-four.svg",
   },
   {
-    title: "Dynamic Optimization",
-    description: "AI-powered optimization for smarter marketing",
+    title: "Dynamic AI Optimization",
+    description:
+      "Let AI continuously refine your campaigns for the best results—automatically.",
     icon: ZapIcon,
     image: "/images/feature-five.svg",
   },

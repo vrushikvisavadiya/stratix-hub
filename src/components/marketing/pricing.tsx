@@ -25,13 +25,13 @@ const Pricing = () => {
         <Container>
           <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-              Find the right plan that suits <br className="hidden lg:block" />{" "}
-              <span className="font-subheading italic">your needs</span>
+              Pricing That Scales With <br className="hidden lg:block" />{" "}
+              <span className="font-subheading italic">Your Success</span>
             </h2>
             <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-              Transform your marketing with AI-powered automation. Create
-              campaigns faster, generate better content, and make smarter
-              decisions in minutes.
+              From startup to enterprise, our AI marketing platform grows with
+              you. Start with essential automation and unlock advanced features
+              as your business expands.
             </p>
           </div>
         </Container>
@@ -71,11 +71,11 @@ const Plan = ({ plan, billPlan }: { plan: PLAN; billPlan: Plan }) => {
   return (
     <div
       className={cn(
-        "flex flex-col relative rounded-2xl lg:rounded-3xl transition-all bg-background/ items-start w-full border border-foreground/10 overflow-hidden",
-        plan.title === "Mastermind" && "border-indigo-500"
+        "flex flex-col relative rounded-2xl lg:rounded-3xl transition-all bg-background/ items-start w-full border border-foreground/10 overflow-hidden h-full",
+        plan.title === "Scale Pro" && "border-indigo-500"
       )}
     >
-      {plan.title === "Mastermind" && (
+      {plan.title === "Scale Pro" && (
         <div className="absolute top-1/2 inset-x-0 mx-auto h-12 -rotate-45 w-full bg-indigo-600 rounded-2xl lg:rounded-3xl blur-[8rem] -z-10"></div>
       )}
 

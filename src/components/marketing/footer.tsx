@@ -9,11 +9,16 @@ const Footer = () => {
         <Container>
           <div className="flex flex-col items-start justify-start md:max-w-[200px]">
             <div className="flex items-center gap-2">
-              <Image src="/icons/logo.png" alt="logo" height={40} width={150} />
+              <Image
+                src="/icons/logo.png"
+                alt="Stratix Hub logo"
+                height={40}
+                width={150}
+              />
             </div>
             <p className="text-muted-foreground mt-4 text-sm text-start">
-              AI-powered platform that transforms your marketing workflow in
-              seconds.
+              The AI-powered marketing platform that transforms campaigns,
+              boosts conversions, and scales your brand effortlessly.
             </p>
           </div>
         </Container>
@@ -25,34 +30,42 @@ const Footer = () => {
               <ul className="mt-4 text-sm text-muted-foreground space-y-4">
                 <li className="mt-2">
                   <Link
-                    href="#"
+                    href="#features"
                     className="link hover:text-foreground transition-all duration-300"
                   >
-                    Features
+                    AI Features
                   </Link>
                 </li>
                 <li className="mt-2">
                   <Link
-                    href="#"
+                    href="#pricing"
                     className="link hover:text-foreground transition-all duration-300"
                   >
-                    Pricing
+                    Pricing Plans
                   </Link>
                 </li>
                 <li className="mt-2">
                   <Link
-                    href="#"
+                    href="#integrations"
                     className="link hover:text-foreground transition-all duration-300"
                   >
-                    Testimonials
+                    Integrations
                   </Link>
                 </li>
                 <li className="mt-2">
                   <Link
-                    href="#"
+                    href="#languages"
                     className="link hover:text-foreground transition-all duration-300"
                   >
-                    Supported Languages
+                    Global Languages
+                  </Link>
+                </li>
+                <li className="mt-2">
+                  <Link
+                    href="#api"
+                    className="link hover:text-foreground transition-all duration-300"
+                  >
+                    API Access
                   </Link>
                 </li>
               </ul>
@@ -65,34 +78,42 @@ const Footer = () => {
                 <ul className="mt-4 text-sm text-muted-foreground space-y-4">
                   <li>
                     <Link
-                      href="#"
+                      href="#small-business"
                       className="link hover:text-foreground transition-all duration-300"
                     >
-                      Content Creators
+                      Small Business
                     </Link>
                   </li>
                   <li className="mt-2">
                     <Link
-                      href="#"
+                      href="#agencies"
                       className="link hover:text-foreground transition-all duration-300"
                     >
-                      Businesses
+                      Marketing Agencies
                     </Link>
                   </li>
                   <li className="mt-2">
                     <Link
-                      href="#"
+                      href="#ecommerce"
                       className="link hover:text-foreground transition-all duration-300"
                     >
-                      Education
+                      E-commerce
                     </Link>
                   </li>
                   <li className="mt-2">
                     <Link
-                      href="#"
+                      href="#enterprise"
                       className="link hover:text-foreground transition-all duration-300"
                     >
                       Enterprise
+                    </Link>
+                  </li>
+                  <li className="mt-2">
+                    <Link
+                      href="#saas"
+                      className="link hover:text-foreground transition-all duration-300"
+                    >
+                      SaaS Companies
                     </Link>
                   </li>
                 </ul>
@@ -107,26 +128,42 @@ const Footer = () => {
               <ul className="mt-4 text-sm text-muted-foreground space-y-4">
                 <li className="mt-2">
                   <Link
-                    href="#"
+                    href="/blog"
                     className="link hover:text-foreground transition-all duration-300"
                   >
-                    Blog
+                    Marketing Blog
                   </Link>
                 </li>
                 <li className="mt-2">
                   <Link
-                    href="#"
+                    href="/guides"
                     className="link hover:text-foreground transition-all duration-300"
                   >
-                    Translation Guides
+                    AI Marketing Guides
                   </Link>
                 </li>
                 <li className="mt-2">
                   <Link
-                    href="#"
+                    href="/case-studies"
                     className="link hover:text-foreground transition-all duration-300"
                   >
-                    Support
+                    Case Studies
+                  </Link>
+                </li>
+                <li className="mt-2">
+                  <Link
+                    href="/support"
+                    className="link hover:text-foreground transition-all duration-300"
+                  >
+                    Help Center
+                  </Link>
+                </li>
+                <li className="mt-2">
+                  <Link
+                    href="/webinars"
+                    className="link hover:text-foreground transition-all duration-300"
+                  >
+                    Webinars
                   </Link>
                 </li>
               </ul>
@@ -139,7 +176,7 @@ const Footer = () => {
                 <ul className="mt-4 text-sm text-muted-foreground space-y-4">
                   <li>
                     <Link
-                      href="#"
+                      href="/about"
                       className="link hover:text-foreground transition-all duration-300"
                     >
                       About Us
@@ -147,7 +184,23 @@ const Footer = () => {
                   </li>
                   <li className="mt-2">
                     <Link
-                      href="#"
+                      href="/careers"
+                      className="link hover:text-foreground transition-all duration-300"
+                    >
+                      Careers
+                    </Link>
+                  </li>
+                  <li className="mt-2">
+                    <Link
+                      href="/contact"
+                      className="link hover:text-foreground transition-all duration-300"
+                    >
+                      Contact Us
+                    </Link>
+                  </li>
+                  <li className="mt-2">
+                    <Link
+                      href="/privacy"
                       className="link hover:text-foreground transition-all duration-300"
                     >
                       Privacy Policy
@@ -155,10 +208,10 @@ const Footer = () => {
                   </li>
                   <li className="mt-2">
                     <Link
-                      href="#"
+                      href="/terms"
                       className="link hover:text-foreground transition-all duration-300"
                     >
-                      Terms & Conditions
+                      Terms of Service
                     </Link>
                   </li>
                 </ul>
@@ -169,9 +222,20 @@ const Footer = () => {
       </div>
 
       <Container delay={0.5} className="w-full relative mt-12 lg:mt-20">
-        <div className="mt-8 md:flex md:items-center justify-center footer w-full">
-          <p className="text-sm text-muted-foreground mt-8 md:mt-0">
+        <div className="mt-8 md:flex md:items-center md:justify-between footer w-full">
+          <p className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} Stratix Hub. All rights reserved.
+          </p>
+          <p className="text-sm text-muted-foreground mt-4 md:mt-0">
+            Made with ❤️ by{" "}
+            <Link
+              href="https://vrushikvisavadiya.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground font-medium hover:text-primary transition-colors duration-300"
+            >
+              Vrushik Visavadiya
+            </Link>
           </p>
         </div>
       </Container>

@@ -41,27 +41,27 @@ const Hero = () => {
                 <span className="px-2 py-[0.5px] h-[18px] tracking-wide flex items-center justify-center rounded-full bg-gradient-to-r from-purple-400 to-indigo-600 text-[9px] font-medium mr-2 text-white">
                   NEW
                 </span>
-                Explore the 2024 recap
+                Discover What’s New in 2025
               </span>
             </button>
           </Container>
           <Container delay={0.15}>
-            <h1 className="text-4xl md:text-4xl lg:text-7xl font-bold text-center !leading-tight max-w-4xl mx-auto">
-              Transform your <span className="">marketing </span>
-              with AI Precision
+            <h1 className="text-4xl md:text-4xl lg:text-6xl font-bold text-center !leading-tight max-w-4xl mx-auto">
+              Maximize Your Brand’s Impact With Next-Gen AI Marketing
             </h1>
           </Container>
           <Container delay={0.2}>
-            <p className="max-w-xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
-              AI-powered automation and insights to maximize your campaigns and
-              grow your brand.
+            <p className="max-w-xl mx-auto mt-2 text-base lg:text-base text-center text-muted-foreground">
+              Use real-time AI analytics, automation, and data-driven targeting
+              to optimize campaigns, boost engagement, and grow revenue—faster
+              and smarter.
             </p>
           </Container>
           <Container delay={0.25} className="z-20">
             <div className="flex items-center justify-center mt-6 gap-x-4">
               <Link href="#" className="flex items-center gap-2 group">
                 <Button size="lg">
-                  Start Free Trial
+                  Try It Now—See Your Results
                   <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />
                 </Button>
               </Link>
