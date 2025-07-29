@@ -1,1 +1,1 @@
-# Stratix Hub
+# Stratix Hub Ai power
