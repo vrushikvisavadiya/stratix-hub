@@ -84,8 +84,10 @@ yarn start
   <h2>Contributing</h2>
   <p>Contributions are welcome! Please open an issue or submit a pull request for bug fixes, features, or improvements.</p>
   
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License.</p>
+ ## License
+
+ This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
   
   <hr />
   <p><em>This README was generated based on the available public repository and deployment. Please update with additional details about AI features, environment setup, and usage instructions as your project evolves.</em></p>
